@@ -1,0 +1,6 @@
+C:\Users\Gazehyena\source\repos\FinalWork\Projectdll\bin\Debug\Projectdll.dll
+C:\Users\Gazehyena\source\repos\FinalWork\Projectdll\bin\Debug\Projectdll.pdb
+C:\Users\Gazehyena\source\repos\FinalWork\Projectdll\obj\Debug\Projectdll.csprojResolveAssemblyReference.cache
+C:\Users\Gazehyena\source\repos\FinalWork\Projectdll\obj\Debug\Projectdll.csproj.CoreCompileInputs.cache
+C:\Users\Gazehyena\source\repos\FinalWork\Projectdll\obj\Debug\Projectdll.dll
+C:\Users\Gazehyena\source\repos\FinalWork\Projectdll\obj\Debug\Projectdll.pdb

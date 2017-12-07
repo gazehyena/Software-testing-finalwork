@@ -1,0 +1,105 @@
+\hypertarget{class_final_work_1_1_program}{}\section{Final\+Work.\+Program Class Reference}
+\label{class_final_work_1_1_program}\index{Final\+Work.\+Program@{Final\+Work.\+Program}}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_final_work_1_1_program_a553c892f82abf7fcfd9057ece85c11f5}{Read\+Commanline\+Arguments} (string\mbox{[}$\,$\mbox{]} args)
+\item 
+void \hyperlink{class_final_work_1_1_program_ae645f04225fb80add67841029cdf6594}{Print\+Registry\+Values} (\hyperlink{class_projectdll_1_1_class1}{Class1} dll)
+\item 
+void \hyperlink{class_final_work_1_1_program_ab669be7d2c3db874295f7b4256e9aa9f}{Read\+User\+Input} (\hyperlink{class_projectdll_1_1_class1}{Class1} dll)
+\item 
+void \hyperlink{class_final_work_1_1_program_a479f55810ed808f361519bcac3b0d205}{Close\+Program} (\hyperlink{class_projectdll_1_1_class1}{Class1} dll)
+\end{DoxyCompactItemize}
+\subsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{class_final_work_1_1_program_af638f741e19f626809c2bf6f2a028e83}{Main} (string\mbox{[}$\,$\mbox{]} args)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_final_work_1_1_program_af5256eaacdc08351e6f094cc61fe17ad}\label{class_final_work_1_1_program_af5256eaacdc08351e6f094cc61fe17ad}} 
+const string {\bfseries user\+Root} = \char`\"{}H\+K\+E\+Y\+\_\+\+C\+U\+R\+R\+E\+N\+T\+\_\+\+U\+S\+ER\char`\"{}
+\item 
+\mbox{\Hypertarget{class_final_work_1_1_program_ab7edbbc57b05ff2b3b4244bc9715b1de}\label{class_final_work_1_1_program_ab7edbbc57b05ff2b3b4244bc9715b1de}} 
+const string {\bfseries subkey} = \char`\"{}Henri\+Happonen\char`\"{}
+\item 
+\mbox{\Hypertarget{class_final_work_1_1_program_a13d692585fb81bc08eb934a225b42712}\label{class_final_work_1_1_program_a13d692585fb81bc08eb934a225b42712}} 
+const string {\bfseries key\+Name} = user\+Root + \char`\"{}\textbackslash{}\textbackslash{}\char`\"{} + subkey
+\item 
+\mbox{\Hypertarget{class_final_work_1_1_program_a74fe3d13e264de40f5db7c83214b4806}\label{class_final_work_1_1_program_a74fe3d13e264de40f5db7c83214b4806}} 
+int {\bfseries number} = 1234
+\item 
+\mbox{\Hypertarget{class_final_work_1_1_program_ac71abcc0b5f84c1c6babdecca0be086c}\label{class_final_work_1_1_program_ac71abcc0b5f84c1c6babdecca0be086c}} 
+bool {\bfseries delete\+On\+Close} = false
+\item 
+\mbox{\Hypertarget{class_final_work_1_1_program_a4d377bfc0889c26cdee3918f74219056}\label{class_final_work_1_1_program_a4d377bfc0889c26cdee3918f74219056}} 
+bool {\bfseries is\+Loopping} = false
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class uses \hyperlink{namespace_projectdll}{Projectdll} to create, read and write registry values. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_final_work_1_1_program_a479f55810ed808f361519bcac3b0d205}\label{class_final_work_1_1_program_a479f55810ed808f361519bcac3b0d205}} 
+\index{Final\+Work\+::\+Program@{Final\+Work\+::\+Program}!Close\+Program@{Close\+Program}}
+\index{Close\+Program@{Close\+Program}!Final\+Work\+::\+Program@{Final\+Work\+::\+Program}}
+\subsubsection{\texorpdfstring{Close\+Program()}{CloseProgram()}}
+{\footnotesize\ttfamily void Final\+Work.\+Program.\+Close\+Program (\begin{DoxyParamCaption}\item[{\hyperlink{class_projectdll_1_1_class1}{Class1}}]{dll }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Function to show goodbye message to user and call registry clean up if program was run in clean up mode. 
+\begin{DoxyParams}{Parameters}
+{\em dll} & Class1 object, reference to dll \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_final_work_1_1_program_af638f741e19f626809c2bf6f2a028e83}\label{class_final_work_1_1_program_af638f741e19f626809c2bf6f2a028e83}} 
+\index{Final\+Work\+::\+Program@{Final\+Work\+::\+Program}!Main@{Main}}
+\index{Main@{Main}!Final\+Work\+::\+Program@{Final\+Work\+::\+Program}}
+\subsubsection{\texorpdfstring{Main()}{Main()}}
+{\footnotesize\ttfamily static void Final\+Work.\+Program.\+Main (\begin{DoxyParamCaption}\item[{string \mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+Main method that is responsible for starting and running the program. 
+\begin{DoxyParams}{Parameters}
+{\em args} & string array holding command line arguments \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_final_work_1_1_program_ae645f04225fb80add67841029cdf6594}\label{class_final_work_1_1_program_ae645f04225fb80add67841029cdf6594}} 
+\index{Final\+Work\+::\+Program@{Final\+Work\+::\+Program}!Print\+Registry\+Values@{Print\+Registry\+Values}}
+\index{Print\+Registry\+Values@{Print\+Registry\+Values}!Final\+Work\+::\+Program@{Final\+Work\+::\+Program}}
+\subsubsection{\texorpdfstring{Print\+Registry\+Values()}{PrintRegistryValues()}}
+{\footnotesize\ttfamily void Final\+Work.\+Program.\+Print\+Registry\+Values (\begin{DoxyParamCaption}\item[{\hyperlink{class_projectdll_1_1_class1}{Class1}}]{dll }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Function to print registry values 
+\begin{DoxyParams}{Parameters}
+{\em dll} & Class1 object, reference to dll \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_final_work_1_1_program_a553c892f82abf7fcfd9057ece85c11f5}\label{class_final_work_1_1_program_a553c892f82abf7fcfd9057ece85c11f5}} 
+\index{Final\+Work\+::\+Program@{Final\+Work\+::\+Program}!Read\+Commanline\+Arguments@{Read\+Commanline\+Arguments}}
+\index{Read\+Commanline\+Arguments@{Read\+Commanline\+Arguments}!Final\+Work\+::\+Program@{Final\+Work\+::\+Program}}
+\subsubsection{\texorpdfstring{Read\+Commanline\+Arguments()}{ReadCommanlineArguments()}}
+{\footnotesize\ttfamily void Final\+Work.\+Program.\+Read\+Commanline\+Arguments (\begin{DoxyParamCaption}\item[{string \mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+A void function that loops through command line arguments and sets program running state according to command line arguments. 
+\begin{DoxyParams}{Parameters}
+{\em args} & string array holding command line arguments \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_final_work_1_1_program_ab669be7d2c3db874295f7b4256e9aa9f}\label{class_final_work_1_1_program_ab669be7d2c3db874295f7b4256e9aa9f}} 
+\index{Final\+Work\+::\+Program@{Final\+Work\+::\+Program}!Read\+User\+Input@{Read\+User\+Input}}
+\index{Read\+User\+Input@{Read\+User\+Input}!Final\+Work\+::\+Program@{Final\+Work\+::\+Program}}
+\subsubsection{\texorpdfstring{Read\+User\+Input()}{ReadUserInput()}}
+{\footnotesize\ttfamily void Final\+Work.\+Program.\+Read\+User\+Input (\begin{DoxyParamCaption}\item[{\hyperlink{class_projectdll_1_1_class1}{Class1}}]{dll }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Function to read user input to be written in the registry 
+\begin{DoxyParams}{Parameters}
+{\em dll} & Class1 object, reference to dll \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Temp/\+Final\+Work/\+Final\+Work/Program.\+cs\end{DoxyCompactItemize}

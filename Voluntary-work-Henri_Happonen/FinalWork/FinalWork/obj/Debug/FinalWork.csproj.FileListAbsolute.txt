@@ -1,0 +1,9 @@
+C:\Users\Gazehyena\source\repos\FinalWork\FinalWork\bin\Debug\FinalWork.exe.config
+C:\Users\Gazehyena\source\repos\FinalWork\FinalWork\bin\Debug\FinalWork.exe
+C:\Users\Gazehyena\source\repos\FinalWork\FinalWork\bin\Debug\FinalWork.pdb
+C:\Users\Gazehyena\source\repos\FinalWork\FinalWork\obj\Debug\FinalWork.csprojResolveAssemblyReference.cache
+C:\Users\Gazehyena\source\repos\FinalWork\FinalWork\obj\Debug\FinalWork.csproj.CoreCompileInputs.cache
+C:\Users\Gazehyena\source\repos\FinalWork\FinalWork\obj\Debug\FinalWork.exe
+C:\Users\Gazehyena\source\repos\FinalWork\FinalWork\obj\Debug\FinalWork.pdb
+C:\Users\Gazehyena\source\repos\FinalWork\FinalWork\bin\Debug\Projectdll.dll
+C:\Users\Gazehyena\source\repos\FinalWork\FinalWork\bin\Debug\Projectdll.pdb
